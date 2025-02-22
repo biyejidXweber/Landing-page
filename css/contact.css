@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+:root {
+  --primary-color: #b9ff66;
+  --secondary-color: #191a23;
+  --body-color: #f3f3f3;
+}
+
+.contact-us .contact-wrapper {
+  border-radius: 25px;
+  padding: 40px 60px;
+  background-color: var(--body-color);
+}
+
+.contact-us .contact-wrapper input,
+.contact-us .contact-wrapper textarea {
+  background-color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+.contact-us .contact-wrapper input:focus,
+.contact-us .contact-wrapper textarea:focus{
+  box-shadow: none;
+}
+
+.contact-bg {
+  position: absolute;
+  right: -190px;
+  width: 400px;
+}
+
+input[type="radio"] {
+  accent-color: var(--primary-color);
+}
